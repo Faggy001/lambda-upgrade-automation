@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Lambda ZIP packages
+*.zip
+
+# AWS credentials or secrets (NEVER COMMIT THESE)
+*.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Python virtual environments
+.env/
+venv/
+env/
+ENV/
+
+# Dependency directories (from pip install -t .)
+lambda/*.dist-info/
+lambda/*.egg-info/
+lambda/__pycache__/
+lambda/boto3/
+lambda/botocore/
+lambda/six.py
+lambda/dateutil/
+lambda/jmespath/
+
+# Logs and system files
+*.log
+*.bak
+.DS_Store
+*.swp
+*.swo
+
+# Report outputs (optional if you want to version-control them)
+reports/*.json
+

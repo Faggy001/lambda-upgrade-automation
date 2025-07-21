@@ -12,6 +12,7 @@ __pycache__/
 *.tfstate
 *.tfstate.*
 .terraform/
+.terraform.lock.hcl
 
 # Python virtual environments
 .env/
@@ -28,6 +29,9 @@ lambda/botocore/
 lambda/six.py
 lambda/dateutil/
 lambda/jmespath/
+lambda/s3transfer/
+lambda/bin/
+lambda/urllib3/
 
 # Logs and system files
 *.log

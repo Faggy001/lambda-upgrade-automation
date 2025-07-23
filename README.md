@@ -60,13 +60,7 @@ after.json: List of updated functions and new runtimes applied.
 
 Example: 
 
-[
-  {
-    "FunctionName": "imageProcessor",
-    "OldRuntime": "python3.9",
-    "NewRuntime": "python3.11"
-  }
-]
+![output](<images/Screenshot 2025-07-23 141041.png>)
 
 # Deploy as an AWS Lambda Function
 
